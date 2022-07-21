@@ -1,0 +1,9 @@
+group	Ichthyosauromorpha	Sauropterygia	Thalattosauria	Other 	Pantestudines	Thalattosuchia	Rhynchocephalia	Mosasauroidea
+Early_Triassic	1.393862	NA	NA	NA	NA	NA	NA	NA
+Mid_Triassic	3.42059	1.289645	0.413171	0.806027	NA	NA	NA	NA
+Late_Triassic	4.11862	1.403256	0.574295	1.06529	0.413057	NA	NA	NA
+Early_Jurassic	4.551448	4.437353	NA	NA	NA	1.95936	0.639163	NA
+Mid_Jurassic	4.065548	4.183528	NA	NA	1.075522	2.303105	NA	NA
+Late_Jurassic	5.064613	1.616082	NA	NA	1.496957	1.952238	3.514363	NA
+Early_Cretaceous	6.951262	2.892554	NA	NA	4.535194	NA	NA	NA
+Late_Cretaceous	NA	7.071216	NA	NA	2.708794	NA	NA	5.821956

@@ -1,0 +1,10 @@
+,Triassic,Jurassic,Cretaceous,
+Median,39.35,80.6,130,
+Q1,23.05,41.765,41,
+Q3,62.5,123.9075,197.5,
+,,,,
+,,,,
+,,Median,Q1,Q3
+,Triassic,39.35,23.05,62.5
+,Jurassic,80.6,41.765,123.9075
+,Cretaceous,130,41,197.5

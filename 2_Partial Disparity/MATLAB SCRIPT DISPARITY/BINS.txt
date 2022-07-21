@@ -1,0 +1,16 @@
+TAXON	TIME_BIN_1	TIME_BIN_2	TIME_BIN_3	TIME_BIN_4	TIME_BIN_5
+Taxon_1	1	1	0	0	0
+Taxon_2	0	1	1	0	0
+Taxon_3	0	1	0	0	0
+Taxon_4	1	0	0	0	0
+Taxon_5	0	1	0	0	0
+Taxon_6	0	0	1	1	0
+Taxon_7	0	0	1	0	0
+Taxon_8	0	0	0	1	1
+Taxon_9	0	0	0	0	1
+Taxon_10	0	0	1	0	0
+Taxon_11	0	0	1	1	0
+Taxon_12	1	0	0	0	0
+Taxon_13	0	0	0	0	1
+Taxon_14	0	1	0	0	0
+Taxon_15	0	0	1	0	0

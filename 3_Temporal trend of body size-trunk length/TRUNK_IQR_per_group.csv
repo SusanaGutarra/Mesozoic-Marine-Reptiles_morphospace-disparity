@@ -1,0 +1,16 @@
+,Ichthyosauromorpha,Mosasauroidea,Pantestudines,Rhynchocephalia,Sauropterygia,Saurosphargidae,Tanystropheidae,Thalattosauria,Thalattosuchia
+Median,88.25,130,17.2,20.1,80.29,95.7,53,44.75,54.1
+Q1,47.5,67.84,13.2,8.4575,41.14,83.05,29.225,23.05,44.05
+Q3,162.4,202.77,40.25,28.075,140.175,108.35,61.5,69.525,74.05
+,,,,,,,,,
+,,,,,,,,,
+,Median,Q1,Q3,,,,,,
+Ichthyosauromorpha,88.25,47.5,162.4,,,,,,
+Mosasauroidea,130,67.84,202.77,,,,,,
+Pantestudines,17.2,13.2,40.25,,,,,,
+Rhynchocephalia,20.1,8.4575,28.075,,,,,,
+Sauropterygia,80.29,41.14,140.175,,,,,,
+Saurosphargidae,95.7,83.05,108.35,,,,,,
+Tanystropheidae,53,29.225,61.5,,,,,,
+Thalattosauria,44.75,23.05,69.525,,,,,,
+Thalattosuchia,54.1,44.05,74.05,,,,,,
