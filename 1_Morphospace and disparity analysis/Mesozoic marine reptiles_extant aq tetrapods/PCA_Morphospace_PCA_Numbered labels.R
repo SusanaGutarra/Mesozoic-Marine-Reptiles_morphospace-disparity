@@ -217,12 +217,12 @@ Plot_ConvexHull(xcoord=pc.scores[Forelimb_oscillation_list,][,1], ycoord=pc.scor
 
 points(-pc.scores[Sauropterygia_list,][,1], pc.scores[Sauropterygia_list,][,2], pch=21, col="#19D27E", bg="#19D27E", cex=0.7)
 points(-pc.scores[Thalattosauria_list,][,1], pc.scores[Thalattosauria_list,][,2], pch=25, col="#FFD300", bg="#FFD300", cex=0.7)
-points(-pc.scores[Saurosphargidae_list,][,1],pc.scores[Saurosphargidae_list,][,2], pch=21, col="darkgrey", bg="darkgrey", cex=0.7)
+points(-pc.scores[Saurosphargidae_list,][,1],pc.scores[Saurosphargidae_list,][,2], pch=24, col="darkgrey", bg="darkgrey", cex=0.7)
 points(-pc.scores[Thalattosuchia_list,][,1], pc.scores[Thalattosuchia_list,][,2], pch=22, col="#3944BC", bg="#3944BC", cex=0.7)
-points(-pc.scores[Tanystropheidae_list,][,1], pc.scores[Tanystropheidae_list,][,2], pch=24, col="#c4f4ff", bg="#c4f4ff", cex=0.7)
+points(-pc.scores[Tanystropheidae_list,][,1], pc.scores[Tanystropheidae_list,][,2], pch=21, col="#c4f4ff", bg="#c4f4ff", cex=0.7)
 points(-pc.scores[Mosasauroidea_list,][,1], pc.scores[Mosasauroidea_list,][,2], pch=23, col="#FF8300", bg="#FF8300", cex=0.7)
 points(-pc.scores[Ichthyosauromorpha_list,][,1],pc.scores[Ichthyosauromorpha_list,][,2], pch=24, col="#FF2626", bg="#FF2626", cex=0.7)
-points(-pc.scores[Pantestudines_list,][,1], pc.scores[Pantestudines_list,][,2], pch=23, col="#0083ab", bg="#0083ab", cex=0.7)
+points(-pc.scores[Pantestudines_list,][,1], pc.scores[Pantestudines_list,][,2], pch=21, col="#0083ab", bg="#0083ab", cex=0.7)
 points(-pc.scores[Rhynchocephalia_list,][,1],pc.scores[Rhynchocephalia_list,][,2], pch=25, col="#c061ff", bg="#c061ff", cex=0.7)
 
 
@@ -392,12 +392,12 @@ Plot_ConvexHull(xcoord=pc.scores[Rhynchocephalia_list,][,1], ycoord=pc.scores[Rh
 # DRAW POINTS PER CLADE
 points(pc.scores[Sauropterygia_list,][,1], pc.scores[Sauropterygia_list,][,2], pch=21, col="#19D27E", bg="#19D27E", cex=0.7)
 points(pc.scores[Thalattosauria_list,][,1], pc.scores[Thalattosauria_list,][,2], pch=25, col="#FFD300", bg="#FFD300", cex=0.7)
-points(pc.scores[Saurosphargidae_list,][,1],pc.scores[Saurosphargidae_list,][,2], pch=21, col="darkgrey", bg="darkgrey", cex=0.7)
+points(pc.scores[Saurosphargidae_list,][,1],pc.scores[Saurosphargidae_list,][,2], pch=24, col="darkgrey", bg="darkgrey", cex=0.7)
 points(pc.scores[Thalattosuchia_list,][,1], pc.scores[Thalattosuchia_list,][,2], pch=22, col="#3944BC", bg="#3944BC", cex=0.7)
-points(pc.scores[Tanystropheidae_list,][,1], pc.scores[Tanystropheidae_list,][,2], pch=24, col="#c4f4ff", bg="#c4f4ff", cex=0.7)
+points(pc.scores[Tanystropheidae_list,][,1], pc.scores[Tanystropheidae_list,][,2], pch=21, col="#c4f4ff", bg="#c4f4ff", cex=0.7)
 points(pc.scores[Mosasauroidea_list,][,1], pc.scores[Mosasauroidea_list,][,2], pch=23, col="#FF8300", bg="#FF8300", cex=0.7)
 points(pc.scores[Ichthyosauromorpha_list,][,1],pc.scores[Ichthyosauromorpha_list,][,2], pch=24, col="#FF2626", bg="#FF2626", cex=0.7)
-points(pc.scores[Pantestudines_list,][,1], pc.scores[Pantestudines_list,][,2], pch=23, col="#0083ab", bg="#0083ab", cex=0.7)
+points(pc.scores[Pantestudines_list,][,1], pc.scores[Pantestudines_list,][,2], pch=21, col="#0083ab", bg="#0083ab", cex=0.7)
 points(pc.scores[Rhynchocephalia_list,][,1],pc.scores[Rhynchocephalia_list,][,2], pch=25, col="#c061ff", bg="#c061ff", cex=0.7)
 
 
@@ -467,12 +467,12 @@ pca_plot <- ggplot(dframe1, aes(x = -Dim.1, y = Dim.2,fill = Locomotion1, colour
   xlim(-6.5,5.2)+
   scale_colour_manual(values= c("#FF2626","#FF8300","#0083ab","#c061ff","#19D27E","darkgrey","#FFD300","#3944BC", "#add8f0","#303030","#303030","#303030","#303030")) +
   scale_fill_manual(values= c("#FF2626","#FF8300","#0083ab","#c061ff","#19D27E","darkgrey","#FFD300", "#3944BC", "#add8f0","white","lightgrey","#878787","black"))+
-  scale_shape_manual(values= c(24,23,21,25,21,24,25,22,21,24,23,21,22))+  
+  scale_shape_manual(values= c(24,23,21,25,21,24,21,25,22,24,23,21,22))+
   #scale_shape_manual(values= c(3,3,3,3,3,3,3,3,3,24,23,21,22))+
   geom_hline(yintercept = 0, linetype = "dashed", size = 0.5, col="gray80")+  #horizontal reference line in O
   geom_vline(xintercept = 0, linetype = "dashed", size = 0.5, col="gray80")+  #vertical reference line in O
-  labs(x = "PC1 (25.2%)",
-       y = "PC2 (21.75%)")+
+  labs(x = "PCA 1 (25.2%)",
+       y = "PCA 2 (21.75%)")+
   #ggrepel::geom_text_repel(label = dframe1$Name, size=3)+     #package to avoid overlap for crowded labels
   #ggrepel::geom_text_repel(aes(label = Name),
   #                         data = subset (dframe1, Time_2 < 2),
@@ -517,11 +517,11 @@ pca_plot <- ggplot(dframe1, aes(x = -Dim.1, y = Dim.2,fill = Locomotion1, colour
   ylim(-2.2,0.64)+
   scale_colour_manual(values= c("#FF2626","#FF8300","#0083ab","#c061ff","#19D27E","darkgrey","#FFD300","#3944BC", "#add8f0","#303030","#303030","#303030","#303030")) +
   scale_fill_manual(values= c("#FF2626","#FF8300","#0083ab","#c061ff","#19D27E","darkgrey","#FFD300", "#3944BC", "#add8f0","white","lightgrey","#878787","black"))+
-  scale_shape_manual(values= c(24,23,21,25,21,24,25,22,21,24,23,21,22))+
+  scale_shape_manual(values= c(24,23,21,25,21,24,21,25,22,24,23,21,22))+
   geom_hline(yintercept = 0, linetype = "dashed", size = 0.5, col="gray80")+  #horizontal reference line in O
   geom_vline(xintercept = 0, linetype = "dashed", size = 0.5, col="gray80")+  #vertical reference line in O
-  labs(x = "PC1 (25.2%)",
-       y = "PC2 (21.75%)")+
+  labs(x = "PCA 1 (25.2%)",
+       y = "PCA 2 (21.75%)")+
   #ggrepel::geom_text_repel(label = dframe1$Name, size=3)+     #package to avoid overlap for crowded labels
   #ggrepel::geom_text_repel(aes(label = Name),
   #                         data = subset (dframe1, Time_2 < 2),
@@ -596,11 +596,11 @@ pca_plot <- ggplot(dframe1, aes(x = Dim.1, y = Dim.2, fill = Locomotion1, colour
   scale_colour_manual(values= c("#FF2626","#FF8300","#0083ab","#c061ff","#19D27E","darkgrey","#FFD300","#3944BC", "#add8f0","#303030","#303030","#303030","#303030","#303030")) +
   scale_fill_manual(values= c("#FF2626","#FF8300","#0083ab","#c061ff","#19D27E","darkgrey","#FFD300", "#3944BC", "#add8f0","white","lightgrey","#878787","black","black"))+  
   scale_y_continuous (labels = scales::number_format(accuracy = 0.1))+
-  scale_shape_manual(values= c(24,23,21,25,21,24,25,22,21,24,23,21,22,21))+ 
+  scale_shape_manual(values= c(24,23,21,25,21,24,21,25,22,24,23,21,22,21))+
   geom_hline(yintercept = 0, linetype = "dashed", size = 0.5, col="gray80")+  #horizontal reference line in O
   geom_vline(xintercept = 0, linetype = "dashed", size = 0.5, col="gray80")+  #vertical reference line in O
-  labs(x = "PC1 (31.48%)",
-       y = "PC2 (21.57%)")+
+  labs(x = "PCA 1 (31.48%)",
+       y = "PCA 2 (21.57%)")+
   geom_text(aes(label=Num, color=Locomotion1), size=3.5, hjust=-0.4
   )+
   
@@ -646,11 +646,11 @@ pca_plot <- ggplot(dframe1, aes(x = Dim.1, y = Dim.2, fill = Locomotion1, colour
   ylim(-2.2,1.8)+
   scale_colour_manual(values= c("#FF2626","#FF8300","#0083ab","#c061ff","#19D27E","darkgrey","#FFD300","#3944BC", "#add8f0","#303030","#303030","#303030","#303030","#303030")) +
   scale_fill_manual(values= c("#FF2626","#FF8300","#0083ab","#c061ff","#19D27E","darkgrey","#FFD300", "#3944BC", "#add8f0","white","lightgrey","#878787","black","black"))+  
-  scale_shape_manual(values= c(24,23,21,25,21,24,25,22,21,24,23,21,22,21))+
+  scale_shape_manual(values= c(24,23,21,25,21,24,21,25,22,24,23,21,22,21))+
   geom_hline(yintercept = 0, linetype = "dashed", size = 0.5, col="gray80")+  #horizontal reference line in O
   geom_vline(xintercept = 0, linetype = "dashed", size = 0.5, col="gray80")+  #vertical reference line in O
-  labs(x = "PC1 (25.2%)",
-       y = "PC2 (21.75%)")+
+  labs(x = "PCA 1 (25.2%)",
+       y = "PCA 2 (21.75%)")+
   ggrepel::geom_text_repel(aes(label=Num,color=Locomotion1), 
                            force=0.1,
                            segment.size=0.4,
